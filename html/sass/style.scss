@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+/*!
+Theme Name: restaurant
+Theme URI:
+Description: NexSeed沖縄の授業で使用
+Version: 1.0
+Author: Miyazato
+Author URI:
+*/
+
+@import 'foundation/_reset.scss';
+@import 'foundation/base';
+@import 'foundation/_variables.scss';
+@import 'layout/footer';
+@import 'layout/_header.scss';
+@import 'layout/_main.scss';
+@import 'object/btn';
+@import 'object/card';
+@import 'object/_gallery.scss';
+@import 'object/_nav.scss';
+@import 'object/_form.scss';
+@import 'object/_margin.scss';
+@import 'object/flex.scss';
+@import 'object/article';
+@import 'object/container';
+@import 'object/sns';
+@import 'object/map';
