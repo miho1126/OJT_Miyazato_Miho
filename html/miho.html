@@ -44,10 +44,13 @@
       <div class="main__visual">
         <div class="main__visual--logo"><img src="../img/logo.png" alt="アメリカンビレッジ文字のロゴ"></div>
         <picture class="main__visual--pic">
-          <source media="(min-width: 767px)" srcset="../img/visual_1_pc.png" />
-          <img src="../img/visual_1_sp.png" alt="アメリカンビレッジ夜景" />
+          <source media="(max-width: 767px)" srcset="../img/visual_1_sp.png" />
+          <img src="../img/visual_1_pc.png" alt="アメリカンビレッジ夜景" />
         </picture>
-        <div class="main__visual--text"><img src="../img/visual_text_pc.png" alt="アメリカンビレッジ文字"></div>
+        <picture class="main__visual--text">
+          <source media="(max-width: 767px)" srcset="../img/visual_text_sp.png" />
+          <img src="../img/visual_text_pc.png" alt="アメリカンビレッジ夜景" />
+        </picture>
       </div>
       <!-- <div class="text">
         <p>進化し続ける「街」アメリカンビレッジマガジン</p>
