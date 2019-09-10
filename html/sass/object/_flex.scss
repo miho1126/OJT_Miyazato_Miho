@@ -1,13 +1,13 @@
-h1 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
+.flex{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* SP MediaQuery */
 @media only screen and (max-width:767px) {
-h1 {
-  font-size: 30px;
+.flex{
+  display: flex;
+  flex-direction: column;
 }
 }
 /* SP MediaQuery end */
