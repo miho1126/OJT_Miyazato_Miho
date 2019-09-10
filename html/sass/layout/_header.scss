@@ -1,17 +1,22 @@
 .header{
-  font-size: 1.2em;
   margin-right: 40px;
+  position: relative;
+
   &__nav{
-    margin-top: 15px;
+    // margin-top: 15px;
     display: flex;
     justify-content: flex-end;
+    // text-align: left;
     align-items: center;
     list-style: none;
 
     &--list{
       display: flex;
-      padding: 50px 0;
+      padding: 50px 0 0 0;
+
       li{
+        font-size: 14px;
+        font-weight: bold;
         padding-right: 60px;
       }
     }
@@ -25,6 +30,7 @@
     display: none;
   }
   .headersp{
+    visibility: visible;
     &__hum{
       display: block;
       position: fixed;    /* bodyに対しての絶対位置指定 */
@@ -41,12 +47,11 @@
         display: block;
         position: absolute;    /* .navToggleに対して */
         width: 30px;
-        border-bottom: solid 3px #eee;
+        border-bottom: solid 3px red;
         -webkit-transition: .35s ease-in-out;
         -moz-transition: .35s ease-in-out;
         transition: .35s ease-in-out;
         left: 6px;
-
       }
     }
 
