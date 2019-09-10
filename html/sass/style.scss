@@ -11,8 +11,10 @@ Author URI:
 @import 'foundation/_reset.scss';
 @import 'foundation/base';
 @import 'foundation/_variables.scss';
-@import 'layout/main';
 @import 'layout/footer';
+@import 'layout/_header.scss';
+@import 'layout/_main.scss';
+@import 'object/mainvisual';
 @import 'object/card';
-@import 'object/flex';
 @import 'object/container';
+@import 'object/flex';
