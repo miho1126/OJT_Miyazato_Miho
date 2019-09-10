@@ -1,6 +1,7 @@
 .header{
   margin-right: 40px;
   position: relative;
+  padding-bottom: 10px;
 
   &__nav{
     // margin-top: 15px;
@@ -12,7 +13,7 @@
 
     &--list{
       display: flex;
-      padding: 50px 0 0 0;
+      padding: 60px 0 0 0;
 
       li{
         font-size: 14px;
@@ -40,7 +41,7 @@
       height: 51px;
       cursor: pointer;
       z-index: 3;
-      background: #666;
+      // background: #666;
       text-align: center;
 
       span{
@@ -52,6 +53,7 @@
         -moz-transition: .35s ease-in-out;
         transition: .35s ease-in-out;
         left: 6px;
+
       }
     }
 
