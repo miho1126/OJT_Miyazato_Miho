@@ -14,4 +14,7 @@ Author URI:
 @import 'layout/footer';
 @import 'layout/_header.scss';
 @import 'layout/_main.scss';
-@import 'object/_mainvisual';
+@import 'object/mainvisual';
+@import 'object/card';
+@import 'object/container';
+@import 'object/flex';
