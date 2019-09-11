@@ -34,8 +34,10 @@
 .text{
   display: flex;
   font-size: 24px;
+  max-width: 1152px;
+  width: 100%;
+  margin: 0 auto;
 }
-
 @media only screen and (max-width: 767px) {
   .main{
     position: static;
@@ -61,14 +63,11 @@
     }
   }
 
- .text{
-  display: block;
+.text{
+  display: flex;
   font-size: 16px;
-  margin: 10px 80px;
-  text-align: center;
-  line-height: 1.5;
-  p{
-    margin-top: 0%;
-  }
+  max-width: 1152px;
+  width: 100%;
+  margin: 0 auto;
 }
 }

@@ -1,5 +1,5 @@
 .card {
-  width: 320px;
+  width: calc(33.3% - 64px / 3);
   height: 400px;
   margin-right: 32px;
   margin-bottom: 63px;
@@ -31,26 +31,7 @@
     margin-left: 10px;
   }
 
-  //   &__btn {
-  //     color: #000;
-  //     position: absolute;
-  //     top: 80%;
-  //     right: 0;
-  //     margin-right: 10px;
-  // }
-
-    // &__btn__line {
-    //   width: 20px;
-    //   color: #000;
-    //   border-bottom: 1px solid #000;
-    //   position: absolute;
-    //   top: 88%;
-    //   right: 0;
-    //   margin-right: 10px;
-    // }
-    }
-
-a {
+  &__btn {
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -77,6 +58,26 @@ a {
   }
 
 }
+  //   &__btn {
+  //     color: #000;
+  //     position: absolute;
+  //     top: 80%;
+  //     right: 0;
+  //     margin-right: 10px;
+  // }
+
+    // &__btn__line {
+    //   width: 20px;
+    //   color: #000;
+    //   border-bottom: 1px solid #000;
+    //   position: absolute;
+    //   top: 88%;
+    //   right: 0;
+    //   margin-right: 10px;
+    // }
+    }
+
+
 
 /* SP MediaQuery */
 @media only screen and (max-width:767px) {
