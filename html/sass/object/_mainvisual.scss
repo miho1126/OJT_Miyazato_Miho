@@ -43,9 +43,10 @@
 }
 @media only screen and (max-width: 767px) {
   .main{
-    position: static;
+    // position: static;
     max-width: 100%;
     padding-top: 30%;
+    z-index: -1;
 
     &__visual{
       position: static;
@@ -80,6 +81,7 @@
     margin: 0 auto;
     text-align: center;
     line-height: 1.5;
+    margin-top: 2%;
     br{
       display: block;
     }
