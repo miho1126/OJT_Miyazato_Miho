@@ -1,11 +1,11 @@
 $(function () {
-  $('.headersp__hum').click(function () {
+  $('.header__hum').click(function () {
     $(this).toggleClass('active');
 
     if ($(this).hasClass('active')) {
-      $('.headersp__list').addClass('active');
+      $('.header__nav').addClass('active');
     } else {
-      $('.headersp__list').removeClass('active');
+      $('.header__nav').removeClass('active');
     }
   });
 });
