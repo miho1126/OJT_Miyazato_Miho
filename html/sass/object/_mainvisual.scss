@@ -54,12 +54,13 @@
       }
     }
     &__text{
-      left: 0;
+      top: 140px;
+      width: 100%;
       img{
         z-index: 100;
         width: 68%;
-        margin-top: 19.8%;
-        margin-left: 14px;
+        margin-top: 0;
+        margin-left: 0;
       }
     }
   }
