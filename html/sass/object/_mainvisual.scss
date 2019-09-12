@@ -37,6 +37,9 @@
   max-width: 1152px;
   width: 100%;
   margin: 0 auto;
+  br{
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   .main{
