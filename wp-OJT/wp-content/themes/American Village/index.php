@@ -10,7 +10,7 @@ $args = [
 
 $the_query = new WP_Query($args);
 ?>
-
+<main>
 <div class="main">
   <picture class="main__visual">
     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/visual_1_sp.png" />
@@ -20,13 +20,13 @@ $the_query = new WP_Query($args);
   <picture class="main__text">
     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png" />
     <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="アメリカンビレッジ文字" />
+  </picture>
+</div>
   <div class="text">
     <p>進化し続ける「街」</p>
     <p>アメリカンビレッジマガジン</p>
   </div>
-</div>
 
-<main>
 <div class="container">
   <h1>Latest Articles</h1>
   <div class="center">
@@ -65,5 +65,5 @@ if (has_post_thumbnail()) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/sample.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
 <?php get_footer();?>

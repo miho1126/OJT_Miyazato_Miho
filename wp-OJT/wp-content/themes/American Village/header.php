@@ -10,30 +10,18 @@
 </head>
 <body>
  <header>
-    <div class="header">
-      <ul class="header__nav">
-        <li>Menu01</li>
-        <li>Menu02</li>
-        <li>Menu03</li>
-        <li>Menu04</li>
-      </ul>
+     <div class="header">
       <div class="header__logo"><img src="<?php echo get_template_directory_uri(); ?>../img/logo.png" alt="アメリカンビレッジ文字のロゴ"></div>
+      <div class="header__hum">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header__nav">
+        <li><a href="">Menu01</a></li>
+        <li><a href="">Menu02</a></li>
+        <li><a href="">Menu03</a></li>
+        <li><a href="">Menu04</a></li>
+      </ul>
     </div>
-    <!-- スマホ用 ハンバーガーメニュー -->
-    <!-- <div class="headersp">
-      <div class="headersp__hum">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="headersp__list">
-        <ul>
-          <li><a href="#">Menu01</a></li>
-          <li><a href="#">Menu02</a></li>
-          <li><a href="#">Menu03</a></li>
-          <li><a href="#">Menu04</a></li>
-        </ul>
-      </div>
-    </div> -->
-    <!-- スマホ用 toggleメニュー　終わり -->
   </header>
