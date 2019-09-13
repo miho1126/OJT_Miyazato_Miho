@@ -17,11 +17,15 @@
         <span></span>
         <span></span>
       </div>
-      <ul class="header__nav">
-        <li><a href="">Menu01</a></li>
-        <li><a href="">Menu02</a></li>
-        <li><a href="">Menu03</a></li>
-        <li><a href="">Menu04</a></li>
-      </ul>
+
+      <!-- テンプレートファイルのメニューを表示したい場所に記述 -->
+      <?php
+       wp_nav_menu( array(
+         'container'       => '',
+         'items_wrap'      => '<ul class="header__nav">%3$s</ul>',
+        ) );
+       ?>
+
+
     </div>
   </header>
